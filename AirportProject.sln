@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportProject", "AirportProject\AirportProject.csproj", "{F44EEADA-8A2D-4021-8562-69EC3BA4F060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSimulator", "..\FlightSimulator\FlightSimulator.csproj", "{F85D709D-633D-409F-85E6-80F1DA228FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F44EEADA-8A2D-4021-8562-69EC3BA4F060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44EEADA-8A2D-4021-8562-69EC3BA4F060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44EEADA-8A2D-4021-8562-69EC3BA4F060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44EEADA-8A2D-4021-8562-69EC3BA4F060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85D709D-633D-409F-85E6-80F1DA228FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85D709D-633D-409F-85E6-80F1DA228FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85D709D-633D-409F-85E6-80F1DA228FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85D709D-633D-409F-85E6-80F1DA228FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A113C8E0-3F23-4F95-A9DA-018795980CEC}
+	EndGlobalSection
+EndGlobal

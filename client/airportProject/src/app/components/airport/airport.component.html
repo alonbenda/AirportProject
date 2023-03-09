@@ -1,0 +1,46 @@
+<h1 class="header">AIRPORT SIMULATOR</h1>
+
+<div class="allairport">
+    <div class="topdiv">
+        <app-station class="firststation stationdiv" [id]="1" [role]="landing" [station]="firstStation"></app-station>
+    </div>
+    <div class="topdiv">
+        <app-station class="secondstation stationdiv" [id]="2" [role]="landing" [station]="secondStation"></app-station>
+    </div>
+    <div class="topdiv">
+        <app-station class="stationdiv takeoffstations" [id]="9" [role]="takeOff" [station]="ninthStation"></app-station>
+        <app-station class="thirdstation stationdiv" [id]="3" [role]="landing" [station]="thirdStation"></app-station>
+    </div>
+
+    <div class="airport">
+        <div class="allairport">
+            <div class="topdiv">
+                <app-station class="stationdiv forthstation" [id]="4" [role]="lane" [station]="forthStation"></app-station>
+            </div>
+        
+            <div class="middlediv">
+                <app-station class="stationdiv lanestation fifthstation" [id]="5" [role]="lane" [station]="fifthStation"></app-station>
+                
+                <app-station class="stationdiv lanestation eighthstation" [id]="8" [role]="lane" [station]="eighthStation"></app-station>
+            </div>
+        
+            <div class="lane">
+                <h1>lane</h1>
+            </div>
+        
+            <div class="lowdiv">
+                <app-station class="stationdiv terminalstation sixthstation" [id]="6" [role]="terminal" [station]="sixthStation"></app-station>
+        
+                <app-station class="stationdiv terminalstation seventhstation" [id]="7" [role]="terminal" [station]="seventhStation"></app-station>
+            </div>
+        
+            <div class="terminaldiv">
+                <h1>Terminal</h1>
+            </div>
+        </div>
+
+        <div class="emergencydiv">
+            <app-station class="stationdiv emergencystation" [id]="0" [role]="emergency" [station]="emergancyStation"></app-station>
+        </div>
+    </div>
+</div>

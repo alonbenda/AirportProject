@@ -1,0 +1,45 @@
+h3 {
+    margin-top: 0%;
+}
+
+.imgdiv {
+    display: inline;
+}
+
+img {
+    width: 60px;
+    align-self: center;
+    margin: 0px;
+}
+
+.landing {
+    color: green;
+    font-size: x-large;
+}
+
+.takeoff {
+    color: blue;
+    font-size: x-large;
+}
+
+.problem {
+    color: red;
+    font-size: x-large;
+}
+
+.landingstations {
+    align-content: right;
+    rotate: 250deg;
+}
+
+.takeoffstation {
+    rotate: 300deg;
+}
+
+.forthstation {
+    rotate: 270deg;
+}
+
+.fifthstation {
+    rotate: 180deg;
+}

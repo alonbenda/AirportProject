@@ -1,0 +1,25 @@
+<div class="imgdiv">
+    <div *ngIf="!station?.state" >
+        <div>{{id}}</div>
+        <h3>{{role}}</h3>
+    </div>
+    <div *ngIf="station?.state">
+        <img *ngIf="station?.id === 4" class="forthstation" src={{airplane}} />
+        <img *ngIf="station?.id === 5 || station?.id === 0" class="fifthstation" src={{airplane}} />
+        <img *ngIf="station?.id === 9" class="takeoffstation" src={{airplane}} />
+        <img *ngIf="station?.id === 1 || station?.id === 2 || station?.id === 3" class="landingstations" src={{airplane}} />
+        <img *ngIf="station?.id === 8" src={{airplane}} />
+        <img *ngIf="station?.plane!.isLanding && (station?.id === 6 || station?.id === 7)" class="fifthstation" src={{airplane}} />
+        <img *ngIf="!station?.plane!.isLanding && (station?.id === 6 || station?.id === 7)" src={{airplane}} />
+        
+        <div *ngIf="station?.plane!.isOk">
+            <div *ngIf="station?.plane!.isLanding" class="landing">
+                <p>{{station?.plane!.name}}</p>
+            </div>
+            <div *ngIf="!station?.plane!.isLanding" class="takeoff">
+                <p>{{station?.plane!.name}}</p>
+            </div>
+        </div>
+        <p *ngIf="!station?.plane!.isOk" class="problem">{{station?.plane!.name}}</p>
+    </div>
+</div>

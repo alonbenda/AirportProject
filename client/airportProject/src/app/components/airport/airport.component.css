@@ -1,0 +1,135 @@
+h1, h3 {
+    margin-top: 0%;
+}
+
+.header {
+    text-align: center;
+}
+
+button {
+    width: 20%;
+    height: 40px;
+    background-color: lightgreen;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+
+.topdiv {
+    display: flex;
+}
+
+.airport {
+    display: flex;
+}
+
+.emergencydiv {
+    width: 10%;
+    margin-top: 20%;
+}
+
+.emergencystation {
+    display: block;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.allairport {
+    width: 95%;
+    margin-left: 2%;
+}
+
+.stationdiv {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.firststation {
+    width: 10%;
+    margin-left: 91%;
+    margin-right: 0px;
+}
+
+.secondstation {
+    width: 10%;
+    margin-left: 80%;
+}
+
+.thirdstation {
+    width: 10%;
+    margin-left: 55%;
+}
+
+.forthstation {
+    width: 55%;
+    margin-left: 15%;
+    background-color: aqua;
+}
+
+.takeoffstations {
+    width: 12%;
+}
+
+.airport {
+    margin-left: 0%;
+}
+
+.middlediv {
+    display: flex;
+}
+
+.fifthstation {
+    margin-left: 14%;
+    background-color: beige;
+}
+
+.eighthstation {
+    margin-left: 45%;
+    background-color: beige;
+}
+
+.lanestation {
+    width: 5%;
+    height: 300px;
+}
+
+.lane {
+    width: 44%;
+    height: 50px;
+    margin-left: 20%;
+    text-align: center;
+    border: solid 1px;
+    background-color: beige;
+}
+
+.lowdiv {
+    display: flex;
+}
+
+.sixthstation {
+    margin-left: 30%;
+    background-color: beige;
+}
+
+.seventhstation {
+    margin-left: 13%;
+    background-color: beige;
+}
+
+.terminalstation {
+    width: 6%;
+    height: 150px;
+}
+
+.terminaldiv {
+    height: 200px;
+    margin-left: 30%;
+    margin-right: 44%;
+    text-align: center;
+    border: solid 1px;
+    background-color: aqua;
+}
